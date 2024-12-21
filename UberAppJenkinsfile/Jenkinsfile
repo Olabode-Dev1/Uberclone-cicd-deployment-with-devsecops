@@ -4,7 +4,7 @@ pipeline{
         nodejs 'node16'
     }
     environment {
-        SCANNER_HOME=tool 'sonar-scanner'
+        SCANNER_HOME=tool 'sonar-qube'
     }
     stages {
         stage('clean workspace'){
